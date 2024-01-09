@@ -23,7 +23,7 @@ function Footer() {
                     <p>(+234) 09013059250</p>
                 </div>
                 <div className='column'>
-                    <p>© 2023 | Copyright by <a href='https://dev-faidurrahmaan.pantheonsite.io'>fd-Wiseweb.</a></p>
+                    <p>© 2024 | Copyright by <a href='https://dev-faidurrahmaan.pantheonsite.io'>fd-Wiseweb.</a></p>
                 </div>
             </div>
         </div>
