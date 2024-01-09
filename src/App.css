@@ -541,7 +541,7 @@
 
                                           .service-card {width: 90%; margin-bottom: 30px;}
 
-                                          .portfolio {height: 350vh;}
+                                          .portfolio {height: 300vh;}
 
                                           .portfolio-card2 {height: 60%;}
 
@@ -562,11 +562,20 @@
                                             font-family: sans-serif;
                                           }
 
-                                          .portfolio-card {width: 120%; 
-                                                          margin-left: -30px;
-                                                          height: 180px;}
+                                          .portfolio {height: 300vh;}
 
-                                          .portfolio-card2 {width: 120%; 
-                                                            margin-left: -30px;
-                                                            height: 200px;}
+                                          .portfolio-card {width: 110%; 
+                                                          margin-left: -20px;
+                                                          height: 150px;}
+
+                                          .portfolio-card2 {width: 110%; 
+                                                            margin-left: -20px;
+                                                            height:280px;}
+
+                                          .portfolio-head1 {margin-top: -250%;}
+
+                                          .testimonial {
+                                                          height: 150vh;
+                                                          margin-top: -140%;
+                                                        }
 }
