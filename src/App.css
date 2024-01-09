@@ -1,0 +1,572 @@
+.nav {background-color: white;
+  height: 10vh;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+}
+.logo {width: 180px;
+}
+.nav-div-logo {width: 50%;
+               height: 10vh;
+            }
+
+.nav-div-menue {width: 50%;
+                height: 10vh;
+                text-align: right;
+                padding-top: 20px;
+            }
+
+.nav-text {
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 800px;
+            color: #1E293B;
+            text-decoration: none;
+            padding-right: 30px;
+        }
+
+.nav-text:hover {color: #0b9cd1;}
+
+.download {border: 2px solid #33BFF0;
+          border-radius: 100px;
+          height: 50px;
+          font-size: 17px;
+          color:  #1E293B;
+          padding: 12px 20px;
+          font-weight: 500;
+          font-family: sans-serif;
+          background-color: white;
+        }
+
+.intro {background-color: white;
+        height: 70vh;
+        padding-left: 120px;
+        padding-right: 110px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        display: flex;
+      }
+
+.intro_txt {width: 50%;
+      height: 60%;
+   }
+
+.intro_img {width: 50%;
+      height: 60%;
+      text-align: right;
+  }
+  
+.mypics {width: 90%;
+  }
+.hello {color: #33BFF0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.myname {color: #062B3D;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: monospac
+}
+
+.brif {
+  color: #062B3D;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.brif2 {
+  padding-top: 10px;
+  color: #062b3d80;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+.links {padding-top: 50px;
+}
+
+.hire {
+  width: 18%;
+  padding: 10px;
+  background-color: #062B3D;
+  border-radius: 100px;
+  border: solid #062B3D;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+  animation: hire-load 1000ms;
+}
+/* Button hire animation*/
+@keyframes hire-load {
+  0%{transform: translateY(-100%);}
+  100%{transform: translateY(0);}
+}
+
+.icon {
+  width: 35px;
+  height: 20px;
+  color: black;
+}
+
+.aboutme {background-color: #062B3D;
+  height: 130vh;
+  padding-left: 120px;
+  padding-right: 110px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.aboutme_txt {width: 50%;
+  height: 60%;
+}
+.intro_aboutme {width: 50%;
+  height: 60%;
+  text-align: left;
+}
+
+.Aboutme {color: #33BFF0;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.hi {
+  color: #98b7c6;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+}
+
+.discription {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.downloadcv {
+  width: 25%;
+  padding: 9px;
+  background-color: #33BFF0;
+  border-radius: 100px;
+  border: solid #33BFF0;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.service {
+  height: 15vh;
+  padding-left: 120px;
+  padding-right: 110px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  margin-top: -20%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myservice {color: #33BFF0;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.service-sub {
+  height: 100vh;
+  padding-bottom: 15px;
+  display: flex;
+  column-gap: 25px;
+}
+
+.service-card {width: 50%;
+  height: 65%;
+  background-color: white;
+  border: solid #062B3D;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.iconi {
+  border-radius: 50%;
+  background-color: #062B3D;
+  width: 70px;
+  height: 70px;
+  border: solid #33BFF0;
+  display: inline-block;
+}
+
+#icon-1{
+  color: #33BFF0;
+  margin-top: 10px;
+  width: 50px; 
+  height: 50px; 
+}
+
+.icon-head {color: #062B3D;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.icon-desc {color: #062B3D;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.icon-subhead {color: #062B3D;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-top: 35px;
+  margin-bottom: -10px;
+}
+
+.portfolio {
+  height: 150vh;
+  padding-left: 120px;
+  padding-right: 110px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-top: 35%;
+}
+.myportfolio {color: #1E293B;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.portfolio-sub {
+  height: 100vh;
+  padding-bottom: 15px;
+  display: flex;
+  column-gap: 25px;
+}
+
+.portfolio-sub1 {
+  height: 100vh;
+  padding-bottom: 15px;
+  display: flex;
+  column-gap: 25px;
+}
+
+.portfolio-head {color: #062B3D;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.portfolio-card {width: 50%;
+  height: 27%;
+  background-color: white;
+  border: solid 2px #473eb7;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.portfolio-card2 {width: 50%;
+  height: 65%;
+  background-color: white;
+  border: solid 2px #473eb7;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.portfolio-asset {
+  height: 180px;
+}
+.portfolio-asset2 {
+  width: 350px;
+}
+
+.portfolio-head1 {color: #062B3D;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: -32%;
+}
+
+.testimonial {
+  height: 80vh;
+  padding-left: 120px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myTestimonial {color: #1E293B;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.testimonial-sub {
+  height: 100vh;
+  padding-bottom: 15px;
+  display: flex;
+  column-gap: 25px;
+}
+
+.testimonial-card {width: 50%;
+  height: 50%;
+  background-color: white;
+  border: solid #062B3D;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.testilogo {
+  display: inline-block;
+}
+
+.logo {
+  color: #33BFF0;
+  margin-top: 15px;
+  width: 200px; 
+}
+
+.testidesc {color: #062B3D;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+.testidesc2 {color: #062B3D;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+
+.footer {background-color: #062B3D;
+  height: 40vh;
+  padding-left: 120px;
+  padding-right: 110px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footertext {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+.footertext2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+.footerContact {border: 2px solid #33BFF0;
+  border-radius: 100px;
+  height: 50px;
+  font-size: 20px;
+  color:  #33BFF0;
+  padding: 12px 50px;
+  font-weight: 700;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+.footerMedia {
+  display: flex;
+  padding-top: 30px;
+  width: 100%;
+  column-gap: 100px;
+}
+
+.footerIcon {
+  width: 35px;
+  height: 20px;
+  margin-bottom: -20px;
+  color: white;
+}
+
+.footerMedia p {
+  color: white;
+}
+
+.column {
+  flex: 3px;
+}
+
+.column a {
+  color: blue;
+}
+
+
+/*mobile responsive*/
+
+@media screen and (max-width: 950px) {
+                                        .nav { padding-left: 10px; padding-right: 10px;}
+
+                                        .logo {width: 150px;}
+
+                                        .intro {background-color: white;
+                                                height: 100vh;
+                                                padding-left: 20px;
+                                                padding-right: 0px;
+                                                row-gap: 20px;
+                                                display: inline-block;
+                                              }
+                                        
+                                        .links { padding-top: 25px;}
+
+                                        .intro_txt {width: 100%;
+                                                    height: 55vh;
+                                                    }
+
+                                        .intro_img {width: 100%;
+                                                    text-align: center;
+                                                    height: 50vh;
+                                                  }
+                                        .mypics {width: 50%;}
+                                        .hire {width: 20%;}
+                                        .aboutme {padding-left: 40px; padding-right: 40px;} 
+                                        .aboutme_txt {display: none;}
+                                        .intro_aboutme {width: 100%;}
+                                        .downloadcv {width: 50%; height: 50px;}
+
+                                        .service {padding-left: 40;
+                                                  padding-right: 40;
+                                                  height: 160vh;  
+                                                  margin-top: -45%;                                           
+                                                }
+                                          
+                                        .service-sub {display: inline-block;}
+
+                                        .service-card {width: 100%; margin-bottom: 30px;}
+
+                                        .portfolio {
+                                          height: 450vh;
+                                          margin: 50px;
+                                          padding: 0;
+                                        }
+                                        
+                                        .portfolio-sub {
+                                          height: 170vh;
+                                          padding-bottom: 15px;
+                                          display: inline-block;
+                                        }
+
+                                        .portfolio-sub1 {
+                                          height: 80vh;
+                                          padding-bottom: 15px;
+                                          display: inline-block;
+                                        }
+
+                                        .portfolio-card {width: 100%;
+                                          margin-bottom: 20px;
+                                        }
+
+                                        .portfolio-asset {
+                                          width: 100%;
+                                          height: 100%;
+                                        }
+
+                                        .portfolio-card2 {width: 100%;
+                                          margin-bottom: 20px;
+                                          height: 100%;
+                                        }
+
+                                        .portfolio-asset2 {
+                                          width: 100%;
+                                          height: 100%;
+                                        }
+
+                                        .portfolio-head {margin-top: 0%;}
+
+                                        .portfolio-head1 {margin-top: 0%;}
+
+                                        .testimonial {
+                                          height: 160vh;
+                                          padding-left: 20px;
+                                          padding-right: 60px;
+                                        }
+
+                                        .testimonial-sub {display: inline-block;}
+
+                                        .testimonial-card {width: 100%; height: 60%; margin-bottom: 20px;}
+
+                                        .footer {
+                                          height: 60vh;
+                                          padding-left: 20px;
+                                          padding-right: 20px;
+                                        }
+                                        
+                                        .footerMedia {display: inline-block;}
+
+                                        #fnum {margin-top: 40px;}
+}
+
+@media screen and (max-width: 580px) {
+                                        .intro_txt {height: 70vh; }
+
+                                        .nav-text {display: none;}
+
+                                        .download {
+                                                    height: 40px;
+                                                    font-size: 15px;
+                                                  }
+                                          .mypics {width: 100%;}
+                                          .aboutme {padding-left: 20px; padding-right: 20px;
+                                                    height: 150vh;
+                                          }   
+
+                                          .service {padding-left: 20px;
+                                            padding-right: 20px;
+                                            margin-top: -50%;                                         
+                                          }
+
+                                          .service-card {width: 90%; margin-bottom: 30px;}
+
+                                          .portfolio {height: 350vh;}
+
+                                          .portfolio-card2 {height: 60%;}
+
+}
+
+@media screen and (max-width: 400px) {
+                                          .intro_txt {height: 75vh; }
+                                          
+                                          .aboutme {height: 155vh;}
+
+                                          .hire {width: 40%;}
+
+                                          .service {margin-top: -65%;}
+
+                                          .myservice {color: #33BFF0;
+                                            font-size: 30px;
+                                            font-weight: 600;
+                                            font-family: sans-serif;
+                                          }
+
+                                          .portfolio-card {width: 120%; 
+                                                          margin-left: -30px;
+                                                          height: 180px;}
+
+                                          .portfolio-card2 {width: 120%; 
+                                                            margin-left: -30px;
+                                                            height: 200px;}
+}
