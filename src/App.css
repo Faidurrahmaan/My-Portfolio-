@@ -59,6 +59,7 @@
   }
   
 .mypics {width: 90%;
+  
   }
 .hello {color: #33BFF0;
   font-size: 20px;
@@ -101,6 +102,15 @@
   cursor: pointer;
   margin-right: 10px;
   animation: hire-load 1000ms;
+  transition: transform .5s;
+
+  &:hover{transform: scale(1.2);
+          cursor: pointer;
+          background-color: white;
+          color: #1E293B;
+          border: solid 1px #025b88;
+          box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
 }
 /* Button hire animation*/
 @keyframes hire-load {
@@ -191,7 +201,8 @@
 .service-card {width: 50%;
   height: 65%;
   background-color: white;
-  border: solid #062B3D;
+  border: solid #e7ebec;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(48, 131, 226, 0.09) 0px 16px 8px, rgba(167, 181, 243, 0.09) 0px 32px 16px;
   border-radius: 10px;
   padding: 15px;
 }
@@ -268,19 +279,32 @@
 }
 
 .portfolio-card {width: 50%;
-  height: 27%;
+  height: 28%;
   background-color: white;
-  border: solid 2px #473eb7;
+  /* border: solid 2px #473eb7; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
+  transition: transform .2s;
+
+  &:hover{transform: scale(1.1);
+          cursor: pointer;
+        }
 }
 
+
 .portfolio-card2 {width: 50%;
-  height: 65%;
+  height: 66%;
   background-color: white;
-  border: solid 2px #473eb7;
+  /* border: solid 2px #473eb7; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
+  transition: transform .2s;
+
+  &:hover{transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 
 .portfolio-asset {
@@ -323,7 +347,8 @@
 .testimonial-card {width: 50%;
   height: 50%;
   background-color: white;
-  border: solid #062B3D;
+  border: solid 1px #d5e3eb;
+  box-shadow: rgba(6, 31, 77, 0.25) 0px 4px 8px -2px, rgba(9, 40, 66, 0.18) 0px 0px 0px 2px;
   border-radius: 10px;
   padding: 15px;
 }
